@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Žilvinas Kuusas</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            background: #0a0a0a;
+            color: #e0e0e0;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 2rem;
+        }
+
+        .container {
+            max-width: 600px;
+            width: 100%;
+        }
+
+        .photo {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 2px solid #333;
+            margin-bottom: 1.5rem;
+        }
+
+        h1 {
+            font-size: 2rem;
+            font-weight: 600;
+            color: #fff;
+            margin-bottom: 0.25rem;
+        }
+
+        .role {
+            color: #888;
+            font-size: 1.05rem;
+            margin-bottom: 2rem;
+        }
+
+        .role a {
+            color: #888;
+            text-decoration: underline;
+            text-underline-offset: 2px;
+        }
+
+        .role a:hover {
+            color: #fff;
+        }
+
+        .section-title {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: #555;
+            margin-bottom: 0.75rem;
+        }
+
+        .community {
+            margin-bottom: 2rem;
+        }
+
+        .community ul {
+            list-style: none;
+        }
+
+        .community li {
+            padding: 0.4rem 0;
+        }
+
+        .community a {
+            color: #ccc;
+            text-decoration: none;
+            border-bottom: 1px solid #333;
+            transition: color 0.2s, border-color 0.2s;
+        }
+
+        .community a:hover {
+            color: #fff;
+            border-color: #fff;
+        }
+
+        .community .desc {
+            color: #555;
+            font-size: 0.9rem;
+        }
+
+        .links {
+            display: flex;
+            gap: 1.25rem;
+            flex-wrap: wrap;
+            margin-bottom: 2rem;
+        }
+
+        .links a {
+            color: #666;
+            text-decoration: none;
+            font-size: 0.95rem;
+            transition: color 0.2s;
+        }
+
+        .links a:hover {
+            color: #fff;
+        }
+
+        .email {
+            color: #555;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="img/zilvinas_kuusas.jpg" alt="Žilvinas Kuusas" class="photo">
+        <h1>Žilvinas Kuusas</h1>
+        <p class="role">Engineer @ <a href="https://dokobit.com">Dokobit</a></p>
+
+        <div class="community">
+            <p class="section-title">Community</p>
+            <ul>
+                <li><a href="https://www.notrollsallowed.com">No Trolls Allowed</a> <span class="desc">— hackercamp</span></li>
+                <li><a href="https://usergroups.lt">UserGroups.lt</a> <span class="desc">— developer meetups</span></li>
+                <li><a href="https://vilniusphp.lt">Vilnius PHP</a> <span class="desc">— PHP meetup</span></li>
+                <li><a href="https://cleanphp.lt">CleanPHP.lt</a> <span class="desc">— workshops</span></li>
+                <li><a href="https://symfony.lt">Symfony.lt</a> <span class="desc">— Symfony meetups</span></li>
+            </ul>
+        </div>
+
+        <div class="links">
+            <a href="https://github.com/kuusas">GitHub</a>
+            <a href="https://twitter.com/kuusas">Twitter</a>
+            <a href="https://www.linkedin.com/in/kuusas">LinkedIn</a>
+            <a href="https://instagram.com/kuusas">Instagram</a>
+        </div>
+
+        <p class="email">zilvinas [at] kuusas [dot] lt</p>
+    </div>
+</body>
+</html>
